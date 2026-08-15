@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0B0A0A;
+  color: #FBF7F4;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
