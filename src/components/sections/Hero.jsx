@@ -4,8 +4,7 @@ import { Star, Heart, ShieldCheck, ChevronDown, Sparkles } from 'lucide-react';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#08070A] pt-24">
-      {/* Background Ambience from Real Cafe Image */}
+<section className="relative min-h-screen w-full overflow-hidden bg-[#08070A] text-white flex items-center justify-center pt-24 pb-16">
       <div className="absolute inset-0 z-0">
         <img
           src="/images/cabin-aisle.jpg"

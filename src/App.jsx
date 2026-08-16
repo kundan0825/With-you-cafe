@@ -14,9 +14,9 @@ import { FloatingActions } from './components/ui/FloatingActions';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#08070A] text-white selection:bg-[#FF2A85] selection:text-white">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#08070A] text-white selection:bg-[#FF2A85] selection:text-white relative">
       <Navbar />
-      <main>
+      <main className="w-full max-w-full overflow-x-hidden">
         <Hero />
         <Marquee />
         <CouplePrivacy />
@@ -34,3 +34,6 @@ function App() {
 }
 
 export default App;
+
+
+

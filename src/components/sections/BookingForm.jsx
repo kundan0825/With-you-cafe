@@ -11,7 +11,7 @@ export const BookingForm = () => {
     date: '',
     time: '',
     guests: '2',
-    decoration: 'Yes',
+    decoration: 'No',
     notes: ''
   });
 
